@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5816D165225D454400886915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5816D164225D454400886915 /* AppDelegate.swift */; };
-		5816D167225D454400886915 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5816D166225D454400886915 /* GameScene.sks */; };
-		5816D169225D454400886915 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5816D168225D454400886915 /* Actions.sks */; };
 		5816D16B225D454400886915 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5816D16A225D454400886915 /* GameScene.swift */; };
 		5816D16D225D454400886915 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5816D16C225D454400886915 /* GameViewController.swift */; };
 		5816D170225D454400886915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5816D16E225D454400886915 /* Main.storyboard */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		5816D161225D454400886915 /* CongaLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CongaLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5816D164225D454400886915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5816D166225D454400886915 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		5816D168225D454400886915 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		5816D16A225D454400886915 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5816D16C225D454400886915 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5816D16F225D454400886915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				5816D164225D454400886915 /* AppDelegate.swift */,
-				5816D166225D454400886915 /* GameScene.sks */,
-				5816D168225D454400886915 /* Actions.sks */,
 				5816D16A225D454400886915 /* GameScene.swift */,
 				5816D16C225D454400886915 /* GameViewController.swift */,
 				5816D16E225D454400886915 /* Main.storyboard */,
@@ -132,10 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5816D170225D454400886915 /* Main.storyboard in Resources */,
-				5816D167225D454400886915 /* GameScene.sks in Resources */,
 				5816D172225D454500886915 /* Assets.xcassets in Resources */,
 				5816D175225D454500886915 /* LaunchScreen.storyboard in Resources */,
-				5816D169225D454400886915 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77L9EFZEW;
 				INFOPLIST_FILE = CongaLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77L9EFZEW;
 				INFOPLIST_FILE = CongaLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
